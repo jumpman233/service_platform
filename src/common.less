@@ -1,0 +1,32 @@
+@import "./reset.css";
+
+@common-text-color: #9D9D9D;
+@dark-gray: #a4a4a4;
+@orange: #fb634d;
+
+.main-page {
+  .mint-navbar {
+    .mint-tab-item {
+      padding: 21px 0;
+
+      &.is-selected {
+        border-top: 3px solid @orange;
+        color: @orange;
+        background-color: #F3F3F3;
+      }
+
+      .mint-tab-item-label {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.common-toast {
+  .mint-toast-text {
+    font-size: 35px;
+    box-sizing: border-box;
+    padding: 20px 20px !important;
+    white-space: nowrap;
+  }
+}

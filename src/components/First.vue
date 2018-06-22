@@ -144,6 +144,7 @@
   @import "../common";
   .first-view {
     padding-top: 20px;
+    padding-bottom: 100px;
 
     .main-content {
       display: flex;
@@ -182,6 +183,7 @@
       justify-content: space-between;
       position: fixed;
       width: 100%;
+      background-color: #fff;
       height: 130px;
       padding: 0 70px;
       border-top: 1px solid;
